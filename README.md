@@ -243,7 +243,7 @@ Campos principales:
 
 **Juan Pablo Carrillo Román**
 
-Proyecto desarrollado como parte de Residencia Profesional.
+Proyecto desarrollado como parte de la materia de IA.
 
 ---
 
