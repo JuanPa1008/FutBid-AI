@@ -1,0 +1,393 @@
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+/* BODY */
+
+body{
+    background:#0B132B;
+    color:white;
+}
+
+/* CONTENEDOR GENERAL */
+
+.app-container{
+
+    width:390px;
+
+    min-height:100vh;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    padding:30px;
+
+    /* espacio para barra inferior */
+
+    padding-bottom:120px;
+
+    position:relative;
+
+}
+
+/* LOGO */
+
+.logo{
+
+    width:220px;
+
+    margin-top:30px;
+
+    margin-bottom:20px;
+
+}
+
+/* TITULOS */
+
+h1,h2{
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+/* TEXTOS */
+
+p{
+
+    margin-top:8px;
+
+}
+
+/* INPUTS */
+
+.input{
+
+    width:320px;
+
+    height:50px;
+
+    border:none;
+
+    border-radius:10px;
+
+    padding-left:15px;
+
+    margin-top:15px;
+
+    outline:none;
+
+}
+
+/* BOTONES */
+
+.btn{
+
+    width:320px;
+
+    padding:15px;
+
+    margin-top:15px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+.primary{
+
+    background:#00F5A0;
+
+    color:#0B132B;
+
+}
+
+.secondary{
+
+    background:white;
+
+    color:#0B132B;
+
+}
+
+/* EFECTO BOTONES */
+
+.btn:hover{
+
+opacity:.9;
+
+transition:.3s;
+
+}
+
+/* CARD GENERAL */
+
+.card{
+
+    width:320px;
+
+    background:white;
+
+    color:black;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    margin-top:20px;
+
+}
+
+/* HOME CARD SUBASTA */
+
+.auction-card{
+
+    width:320px;
+
+    background:white;
+
+    color:#111827;
+
+    border-radius:18px;
+
+    padding:18px;
+
+    margin-top:20px;
+
+    display:flex;
+
+    gap:15px;
+
+    align-items:center;
+
+}
+
+.jersey-img{
+
+    width:100px;
+
+    height:auto;
+
+}
+
+.auction-info{
+
+    flex:1;
+
+}
+
+.auction-info h3{
+
+    font-size:18px;
+
+    margin-bottom:10px;
+
+}
+
+.auction-info p{
+
+    color:#111827;
+
+    margin:6px 0;
+
+    font-size:14px;
+
+}
+
+/* PRECIOS */
+
+.price{
+
+    color:#00A86B !important;
+
+    font-weight:bold;
+
+}
+
+/* BOTON PEQUEÑO */
+
+.small-btn{
+
+display:block;
+
+width:130px;
+
+padding:12px;
+
+margin-top:10px;
+
+border-radius:12px;
+
+background:#00F5A0;
+
+color:#0B132B;
+
+text-align:center;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+.small-btn:hover{
+
+opacity:.9;
+
+transition:.3s;
+
+}
+
+/* PLAYERA DETALLE */
+
+.jersey-detail{
+
+width:180px;
+
+margin:20px 0;
+
+}
+
+/* PLAYERA PREVIEW */
+
+.jersey-preview{
+
+width:120px;
+
+margin-top:20px;
+
+}
+
+/* IA CARD */
+
+.ia-card{
+
+width:320px;
+
+background:white;
+
+color:black;
+
+padding:15px;
+
+border-radius:15px;
+
+margin-top:20px;
+
+}
+
+.ia-card h3{
+
+margin-bottom:10px;
+
+}
+
+.ia-card p{
+
+color:#111827;
+
+margin-top:8px;
+
+}
+
+/* PERFIL */
+
+.profile-card{
+
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+.profile-photo{
+
+width:100px;
+
+height:100px;
+
+border-radius:50%;
+
+overflow:hidden;
+
+background:white;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+margin-bottom:20px;
+
+}
+
+.profile-img{
+
+width:100%;
+
+height:100%;
+
+object-fit:cover;
+
+}
+
+/* BARRA INFERIOR */
+
+.bottom-nav{
+
+width:320px;
+
+height:60px;
+
+background:white;
+
+border-radius:20px;
+
+display:flex;
+
+justify-content:space-around;
+
+align-items:center;
+
+position:fixed;
+
+bottom:20px;
+
+left:50%;
+
+transform:translateX(-50%);
+
+z-index:1000;
+
+}
+
+.bottom-nav a{
+
+text-decoration:none;
+
+color:#111827;
+
+font-size:12px;
+
+font-weight:bold;
+
+}
