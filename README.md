@@ -1,7 +1,5 @@
-FutBid AI
-Descripción
-
-FutBid AI es una plataforma web inteligente para la subasta de playeras deportivas.
+# FutBid-AI
+Plataforma inteligente de subastas de playeras deportivas con análisis IA, gestión de usuarios, panel administrativo y notificaciones automáticas.
 
 Permite:
 
@@ -13,7 +11,8 @@ Análisis inteligente de autenticidad y precio sugerido
 Historial de subastas
 Panel administrativo
 Correos automáticos al ganador mediante Gmail SMTP
-Tecnologías utilizadas
+
+Tecnologías utilizadas:
 PHP
 MySQL
 HeidiSQL
@@ -45,9 +44,7 @@ Tablas principales:
 usuarios
 playeras
 ofertas
-Autor
 
+Autor:
 Juan Pablo Carrillo Román
 =======
-# FutBid-AI
-Plataforma inteligente de subastas de playeras deportivas con análisis IA, gestión de usuarios, panel administrativo y notificaciones automáticas.
